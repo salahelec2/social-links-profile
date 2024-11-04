@@ -104,7 +104,7 @@ p {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 372px) {
+@media only screen and (max-width: 432px) {
   html {
     font-size: 16px;
   }
@@ -113,9 +113,17 @@ p {
     width: 90%;
     max-height: 600px;
     min-width: 340px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 6px;
     line-height: 1.5;
+  }
+  img.profile_avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+  }
+  div.profile-info {
+    height: max-content;
   }
   ul li {
     max-height: 50px;
