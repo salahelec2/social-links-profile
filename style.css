@@ -40,7 +40,7 @@ ul li {
   background-color: hsl(0, 0%, 20%);
   list-style: none;
   margin-top: 15px;
-  height: 40px;
+  height: 50px;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -84,7 +84,7 @@ div.profile-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 h1 {
@@ -99,9 +99,16 @@ span.location {
   font-size: 1rem;
 }
 
+h1,
+span.location {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 p {
   color: hsl(0, 0%, 100%);
   font-weight: 400;
+  margin-top: auto;
 }
 
 @media only screen and (max-width: 432px) {
